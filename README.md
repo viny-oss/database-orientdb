@@ -14,6 +14,12 @@ docker build -t viny/orientdb .
 docker run -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWORD=rootpwd viny/orientdb
 ```
 
+You can also use the given docker compose file.
+
+```shell
+docker-compose up
+```
+
 ### OrientDB Studio
 
 The Studio plugin is automaticaly installed on this image.
