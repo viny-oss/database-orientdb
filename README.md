@@ -4,6 +4,16 @@ Theses images are super-lightweight. Based on lightweight operating system : [Al
 
 Take up to 2 minutes to pull and build the image.
 
+## Build and run
+
+```shell
+cd 2.2/
+docker build -t viny/orientdb .
+docker run -p 2424:2424 -p 2480:2480 viny/orientdb
+```
+
+You can check your OrientDB Studio at `http://localhost:2480/studio/index.html`.
+
 ## Supported version
 - [2.2](https://github.com/orientechnologies/orientdb/tree/2.2.x)
 
